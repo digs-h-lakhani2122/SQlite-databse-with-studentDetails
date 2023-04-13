@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:gravity="center"
+        android:text="EDIT Student Details"
+        android:textColor="#B53A3A"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Enter Student Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Choose Your Department" />
+
+    <Spinner
+        android:id="@+id/edepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Department" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Choose Your Semester" />
+
+    <Spinner
+        android:id="@+id/esemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Semester" />
+
+    <EditText
+        android:id="@+id/eproject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter Project Name"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/eview_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="View Details"
+        android:textColor="#3F51B5" />
+
+</LinearLayout>

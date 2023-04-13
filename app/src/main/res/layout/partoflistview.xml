@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#9C27B0" />
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/semester"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/department"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/semester"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/name"
+            android:text="INSERT"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/b1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@id/semester"
+            android:text="DELETE"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
